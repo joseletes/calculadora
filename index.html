@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
@@ -48,46 +48,50 @@
                 <tr>
 
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-warning" id="contenedorboton" type=button value="4" OnClick="calc.display.value+='4'">
+                        <input class="btn btn-block btn-warning" type=button value="4" OnClick="calc.display.value+='4'">
                     </td>
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-warning" id="contenedorboton" type=button value="5" OnClick="calc.display.value+='5'">
+                        <input class="btn btn-block btn-warning" type=button value="5" OnClick="calc.display.value+='5'">
                     </td>
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-warning" id="contenedorboton" type=button value="6" OnClick="calc.display.value+='6'">
+                        <input class="btn btn-block btn-warning" type=button value="6" OnClick="calc.display.value+='6'">
                     </td>
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-info" id="contenedorboton" type=button value="-" OnClick="calc.display.value+='-'">
+                        <input class="btn btn-block btn-info" type=button value="-" OnClick="calc.display.value+='-'">
                     </td>
                 </tr>
                 <tr>
 
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-warning" id="contenedorboton" type=button value="7" OnClick="calc.display.value+='7'">
+                        <input class="btn btn-block btn-warning" type=button value="7" OnClick="calc.display.value+='7'">
                     </td>
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-warning" id="contenedorboton" type=button value="8" OnClick="calc.display.value+='8'">
+                        <input class="btn btn-block btn-warning" type=button value="8" OnClick="calc.display.value+='8'">
                     </td>
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-warning" id="contenedorboton" type=button value="9" OnClick="calc.display.value+='9'">
+                        <input class="btn btn-block btn-warning" type=button value="9" OnClick="calc.display.value+='9'">
                     </td>
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-info" id="contenedorboton" type=button value="C" OnClick="calc.display.value=''">
+                        <input class="btn btn-block btn-info" type=button value="/" OnClick="calc.display.value+='/'">
                     </td>
 
 
                 </tr>
                 <tr>
                     <td class="contenedorboton">
+                        <input class="btn btn-block btn-info" type=button value="C" OnClick="calc.display.value=''">
+                    </td>
+                    <td class="contenedorboton">
+                        <input class="btn btn-block btn-warning" type=button value="0" OnClick="calc.display.value+='0'">
 
                     </td>
                     <td class="contenedorboton">
-                        <input class="btn btn-block btn-warning" id="contenedorboton" type=button value="0" OnClick="calc.display.value+='0'">
+                        <input class="btn btn-block btn-info" type=button value="=" OnClick="calc.display.value=eval(calc.display.value)">
+                    </td>
+                    <td class="contenedorboton">
+                        <input class="btn btn-block btn-info" type=button value="x" OnClick="calc.display.value+='*'">
+                    </td>
 
-                    </td>
-                    <td class="contenedorboton" colspan="2">
-                        <input class="btn btn-block btn-info" id="contenedorboton" type=button value="=" OnClick="calc.display.value=eval(calc.display.value)">
-                    </td>
                 </tr>
 
             </table>
